@@ -10,6 +10,9 @@ Vue.config.productionTip = false;
 /* eslint no-console: 2 */
 new Vue({
   el: '#app',
-  template: '<student-table></student-table>',
+  template: `
+<div>
+<student-table></student-table>
+</div>`,
   components: { StudentTable },
 });
